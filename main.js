@@ -1,4 +1,5 @@
 song="";
+song2="";
 
 function setup()
 {
@@ -15,10 +16,6 @@ function draw()
 
 function preload()
 {
-    song=loadSound("music.mp3");
-}
-
-function play()
-{
-    song.play();
+    song2=loadSound("bgmusic2.mp3");
+    song=loadSound("bgmusic1.mp3");
 }
